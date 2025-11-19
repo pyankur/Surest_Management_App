@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.surest.management.Surest_Management_App.service.AuthServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-11-19T06:50:36Z" hostname="ELW5068" time="1.12">
+  <properties/>
+  <testcase name="register_success_createsUserAndReturnsToken()" classname="com.surest.management.Surest_Management_App.service.AuthServiceTest" time="1.061"/>
+  <testcase name="login_invalidPassword_throwsRuntimeException()" classname="com.surest.management.Surest_Management_App.service.AuthServiceTest" time="0.012"/>
+  <testcase name="register_usernameExists_throwsRuntimeException()" classname="com.surest.management.Surest_Management_App.service.AuthServiceTest" time="0.01"/>
+  <testcase name="login_userNotFound_throwsRuntimeException()" classname="com.surest.management.Surest_Management_App.service.AuthServiceTest" time="0.012"/>
+  <testcase name="login_success_returnsToken()" classname="com.surest.management.Surest_Management_App.service.AuthServiceTest" time="0.008"/>
+  <testcase name="register_roleNotFound_throwsRuntimeException()" classname="com.surest.management.Surest_Management_App.service.AuthServiceTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
